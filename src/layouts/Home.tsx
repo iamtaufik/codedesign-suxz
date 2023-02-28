@@ -120,7 +120,7 @@ const Home = () => {
       <section style={{ backgroundImage: `url(${bgStart})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} className="  flex flex-col items-center container mt-8 py-[40px] lg:py-[80px]">
         <h1 className="text-xl text-white font-bold my-2 text-center lg:text-5xl">So? What Are You Waiting For</h1>
         <p className="text-base text-white  font-medium text-center lg:text-xl ">It's time to build your career, study in a relaxed and purposeful manner</p>
-        <div className="mt-10">
+        <div className="mt-10 flex">
           <Button text="Get Started" className="bg-primary text-white px-[16px] font-semibold lg:px-[34px]" />
           <Button text="Contact Us" className=" text-white px-[16px] font-semibold lg:px-[34px]" />
         </div>
