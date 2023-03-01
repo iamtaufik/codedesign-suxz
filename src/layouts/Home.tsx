@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </main>
       </div>
-      <section id="learnings" className="bg-[#F8F8FF] flex flex-col gap-8 container mt-8 py-[40px] lg:py-[80px]">
+      <section id="learnings" className="bg-[#F8F8FF] flex flex-col gap-8 container mt-8 py-[40px] lg:py-[80px] ">
         <div>
           <h2 className="uppercase text-primary text-sm tracking-wide lg:text-lg">Learnings</h2>
           <h1 className="text-xl text-dark font-bold my-2 lg:text-3xl">
@@ -44,7 +44,7 @@ const Home = () => {
             Study and understand the material <br /> class is more relaxed without time limit.
           </p>
         </div>
-        <div className="flex  flex-col items-center gap-4 lg:flex-row lg:justify-between lg:gap-0">
+        <div className="flex  flex-col items-center gap-4 lg:flex-row lg:justify-between lg:gap-0 md:flex-row md:flex-wrap md:justify-evenly">
           <CardList />
         </div>
       </section>
@@ -113,7 +113,7 @@ const Home = () => {
         <h2 className="uppercase text-primary text-sm tracking-wide text-center lg:text-lg">Testimonial</h2>
         <h1 className="text-xl text-dark font-bold my-2 text-center lg:text-5xl">Our Alumni Say</h1>
         <p className="text-base text-dark  font-medium text-center lg:text-xl ">These are the words of people who have taken our class</p>
-        <div className="flex justify-center flex-col items-center lg:flex-row lg:justify-between lg:mt-8">
+        <div className="flex justify-center flex-col items-center lg:flex-row lg:justify-between lg:mt-8 md:flex-row md:flex-wrap md:justify-evenly">
           <AlumniList />
         </div>
       </section>
